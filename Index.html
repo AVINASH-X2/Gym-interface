@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X2 Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="<style> @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); </style>">
+<style>
+    /* CSS Reset*/
+    body {
+        font-family: 'Rubik Bubbles', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym_girl.jpg');
+    }
+
+    .left {
+        /*border: 2px solid red;*/
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 21px;
+    }
+    .left img{
+        width: 87px;
+        filter: invert(94%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 15px;
+    }
+    .mid {
+        display: block;
+        width: 43%;
+        /*border: 2px solid rgb(39, 39, 115);*/
+        margin: 31px auto;
+        
+    }
+
+    .right {
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+        position: absolute;
+        right: 34px;
+        top: 41px;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding:34px 23px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: rgb(112, 11, 175);
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Rubik Bubbles', cursive;
+
+    }
+    .btn:hover{
+        background-color: rgb(112, 11, 175);
+    }
+    .container{
+        /*border: 2px solid white;*/
+        margin: 185px 420px;
+        padding: 35px;
+        width: 43%;
+        border-radius: 12px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 395px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 13px auto;
+        border-radius: 7px;
+        font-family: 'Rubik Bubbles', cursive;
+        font-size: 20px;
+    }
+    .container h1{
+        text-align: center ;
+    }
+    .container button{
+        display: block;
+        width: 395px;
+        margin: 20px auto;
+
+    }
+    .header{
+        position: sticky;
+        top: 2px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="Logo2.jfif" alt="">
+            <div>
+                X2 Fitness
+            </div>
+        </div>
+        <!-- Mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href = "https://goldsgym.in/" class="active" target="_blank">Home</a></li>
+                <li><a href = "#"target = "_blank">About Me</a></li>
+                <li><a href = "https://www.calculator.net/calorie-calculator.html"target = "_blank">Fitness Calculator</a></li>
+                <li><a href = "https://www.instagram.com/nex2_says/"target = "_blank">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best GYM of Chennai Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Mobile Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gmail">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
